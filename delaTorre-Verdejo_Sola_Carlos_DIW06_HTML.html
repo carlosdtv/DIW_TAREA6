@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tarea 6 DIW - Carlos de la Torre-Verdejo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tarea 6 Carlos de la Torre-Verdejo">
+</head>
+
+	<style type="text/css">
+		#oculta{
+			float:left;
+			margin-left:10px;
+            margin-right: 10px;
+			border:#000000 6px;
+			padding:10px 10px;
+			background-color:#9fc7e1;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function muestra_oculta(id){
+			if (document.getElementById){
+				var el = document.getElementById(id);
+				if(el.style.display=='none'){
+					document.getElementById('alternativa').value="Ocultar la ayuda textual";
+					el.style.display = 'block';
+				}else{
+					document.getElementById('alternativa').value="Mostrar ayuda textual";
+					el.style.display = 'none';
+				}
+			}
+		}
+		window.onload = function(){
+			muestra_oculta('oculta');
+		}
+	</script>
+</head
+>
+	<body style="background-color:#0098ac; margin: 0px;">
+		<div style="float: left; text-align: center; left: 50%; margin-left: -250px; position: relative; clear: left;">
+			<div style="background-color: #b3b3b3; padding: 5px 10px;">
+				<b>VÍDEO TAREA 6 DIW</b><br/>
+				<b><i>Nombre</i></b>: delaTorre-Verdejo_Sola_Carlos_DIW06_Video.mp4<br/>
+				<b><i>Tamaño</i></b>: 4.39 MB<br/>
+			</div>
+			<div style="background-color: #dddddd; float: left; text-align:left; padding: 5px 10px;">
+				<b>Propiedades de vídeo:</b><br/>
+                <p>
+                    <i>Códec</i>: H.264/AVC (Advance Video Coding)<br/>
+                    <i>Ancho</i>: 640 px<br/>
+                    <i>Alto</i>: 360 px<br/>
+                    <i>Frecuencia de fotogramas</i>: 25 fps<br/>
+                    <i>Bitrate</i>: 498 kbps<br/>
+                    <i>Tipo de archivo</i>: MP4
+                </p>
+			</div>
+			<div style="background-color: #dddddd; float: left; text-align: left; padding: 5px 10px;">
+				<b>Propiedades de audio:</b><br/>
+                <p>
+                    <i>Códec</i>: MPEG-2/4 Audio (AAC)<br/>
+                    <i>Canales</i>: 2<br/>
+                    <i>Tamaño de muestra</i>: 16 bits<br/>
+                    <i>Frecuencia</i>: 44,1 kHz<br/>
+                    <i>Bitrate</i>: 125,56 kbps
+                    <br/><br/>
+                </p>
+			</div>
+		</div><br/><br/>
+		<div style="float: left; margin: 20px; text-align: center; left: 50%; margin-left: -316px; clear: left; position: relative;">
+            <video width="640" height="360" controls>
+                <source src="delaTorre-Verdejo_Sola_Carlos_DIW06_Video.mp4" type="video/mp4"/>
+            </video>
+			<br/><br/>
+			<input type="button" id="alternativa" value="Alternativa textual" title="Alternativa textual" onclick="muestra_oculta('oculta')"></input><br/><br/>
+		</div>
+		<div id="oculta">
+			<p>
+				La animación comienza con el nombre del autor en fondo negro e inmediatamente después, con un pájaro con distorsión de imagen, contento en una rama, al que le tiran una piña y se cae de la rama. Esta escena se reproduce con un texto amarillo que muestra el nombre del animal: "Pájaro".<br/><br/>
+				<b><i>00:00:06 - </i></b> Tras esa primera escena, "Conejo" sale de su madriguera después de dormir.<br/><br/>
+				<b><i>00:00:11 - </i></b> En la siguiente escena, mientras sale "Conejo" de la madriguera y mientras se estira, se produce un efecto de espejo en pantalla, aún con el nombre en texto amarillo a forma de título.<br/><br/>
+				<b><i>00:00:23 - </i></b> Tras una transición de desvanecimiento de imagen, aparecen en pantalla "Ardilla", "Roedor" y "Ratón" presentados con un texto amarillo debajo de la posición que ocupan cada uno de los animales.<br/><br/>
+				<b><i>00:00:25 - </i></b> En la siguiente escena, "Ratón" está comiendo, cuando aparecen por detrás "Roedor" y baja desde el arbol que se encuentra a su derecha "Ardilla". En ese momento, se produce un efecto de imagen de negativos durante 3 segundos.<br/><br/>
+				<b><i>00:00:31 - </i></b> Ratón aparece en pantalla tras una transición de desvanecimiento de pantalla, con su castaña a cuestas. Se le cae y una piedra gigante está a punto de aplastarle. Sigue andando tan tranquilo y al siguiente metro, le cae un tronco encima que, al ser hueco, no le aplasta. Todo ello se presenta con el subtítulo de su nombre, "Ratón" en color amarillo.<br/><br/>
+				<b><i>00:00:49 - </i></b> La última escena es una imagen de fondo en la que aparece "Conejo" mirando al horizonte.<br/><br/>
+				<b><i>00:00:50 - </i></b> Y en forma de cierre, con esta imagen de fondo van apareciendo de abajo hacia arriba en pantalla los créditos.<br/><br/>
+				<b><i>00:00:58 - </i></b> En el segundo antes de terminar el vídeo, la pantalla se va desvaneciendo a un color negro y así finaliza el vídeo.<br/><br/>
+				<b><i>Los créditos del vídeo son:</i></b><br/>
+				Vídeo realizado por Carlos de la Torre-Verdejo Sola con <a href="https://www.adobe.com/es/products/premiere/free-trial-download.html#:~:text=C%C3%B3mo%20conseguir%20la%20prueba%20gratis,el%20periodo%20de%207%20d%C3%ADas.">Adobe Premiere Pro</a><br/>
+				<b><i>Vídeo</i></b>: <a href="https://download.blender.org/peach/bigbuckbunny_movies/">Big Buck Bunny</a><br/>
+				Descargado de: <a href="https://download.blender.org/peach/bigbuckbunny_movies/">https://download.blender.org/peach/bigbuckbunny_movies/</a> con licencia CC-by<br/>
+				<b><i>Música</i></b>: Seasons-Telecasted<br/>
+				Descargado de: <a href="https://studio.youtube.com/channel/UCXncgVIPDxxhgn2tZ2ppzow/music#">https://studio.youtube.com/channel/UCXncgVIPDxxhgn2tZ2ppzow/music</a>
+			</p>
+		</div>
+        <div style="clear:left; margin: 0px; padding: 0px; border: 0px; bottom: 0px; text-decoration: none; text-align: center;">
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+			</a>
+		</div>
+	</body>
+</html>
